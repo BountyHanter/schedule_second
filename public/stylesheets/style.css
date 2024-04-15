@@ -1,0 +1,77 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+  min-width: 250px;
+  text-align: center;
+}
+
+td {
+  height: 189px;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Центрирование содержимого по горизонтали */
+  align-items: center; /* Центрирование содержимого по вертикали, если нужно */
+  padding-bottom: 50px;
+}
+
+.clock {
+  text-align: center;
+}
+
+.date{
+  font-size: 24px;
+  padding-top: 50px;
+}
+
+.time {
+  font-size: 100px;
+}
+
+.pair {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.break {
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.break40 {
+  text-align: center;
+  height: 79px;
+  margin: 0;
+  padding: 0;
+}
+
+.arrow {
+  top: 30px;
+  position: relative;
+  font-size: 50px; /* Размер стрелки */
+  color: red; /* Цвет стрелки */
+  padding: 0;
+  margin: 0;
+}
+
+.my_container {
+  display: flex;
+}
+
+.schudele {
+  padding-top: 35px;
+}
