@@ -2,3 +2,4 @@ node_modules/
 .idea/
 database/database.js
 database/insertData.js
+gitlab/
